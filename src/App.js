@@ -44,7 +44,7 @@ function App() {
 
  return (
   <div className="App">
-    <Header title="Groceries List"/>
+    <Header title="Product Listing"/>
     
     <AddItem 
     newItem={newItem}
