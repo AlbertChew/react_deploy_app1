@@ -1,17 +1,16 @@
 {
   "name": "app1",
   "version": "0.1.0",
-  "homepage":"https://albertchew.github.io/react_deploy_app1",
+  "homepage": "https://albertchew.github.io/react_deploy_app1/",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
-    "predepoy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
